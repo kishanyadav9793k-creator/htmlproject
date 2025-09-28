@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom manipulation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+      <header> 
+        <h1>swami vivekanand library</h1>
+        <br>
+      </header>
+      <main> 
+        <h2> if you are looling for good ,quite and relaiable library then you are at right place</h2>
+        <br>
+        <h2>full day library fees is 500 ONLY 🔥</h2>
+        <br>
+        <h3>facility we are provoding</h3>
+        <br>
+            <div>
+              <ul>
+                <li>ac</li>
+                <li>wifi</li>
+                <li>comfortable seat</li>
+                <li> auro water</li>
+                <li> news paper(english and hindi)</li>
+                <li> top floor for your personal lunch</li>
+                <li> locker for your books</li>
+                <big>NOTE: 100 Rupees extra for locker</big>
+              </ul>
+            </div>
+      </main>
+      <article> 
+       Our library is running since 2022
+       <br>
+       <h2> library open from 6:00 am to 9:00 pm </h2>
+       <br>
+       <br>
+       <h3> library close only on last sunday of every month</h3>
+       <br>
+       <br>
+       <p> two trail days available for everyone , feel free then visit it </p>
+       <br>
+      </article>
+               <aside> if you wnat then you will find evry type of person in library they will help you and guide you according to your needs
+                <br>
+                <br>
+                       government job and private job both type of students are available in library
+                       <br>
+                       <br>
+               </aside>
+
+
+    <footer><pre>
+about us: this library is started by MR.jee singh<br>
+ and managed by vimlesh and raghu.
+<br>
+ contact: 9876*4321*
+<br>
+email: 7l2xU@example.com
+<br> 
+library address: sihipur jaunpur railway crrosing uttar pradesh 
+<br>
+<img src:"images.jpg" alt="swami vivekanand library">
+library owner
+ <br>
+<img src:"images.jpg" alt="swami vivekanand library2">
+library manager
+<br>
+<img src:"images.jpg" alt="swami vivekanand library3">
+ library manager</pre>
+ <br>
+ <br>
+             <big>credit: kishan yadav<br> 
+             email: kishanyadav@.com,<br>
+             instagram: 107_kd<br>
+        <a hre = "github:https://github.com/kishanyadav9793k-creator<br>
+             [you can connect with me on anyplatform]
+             </big>
+</footer>
+      <scrip src="new.js"></script>    
+    </body>
+    </html>
