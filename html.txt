@@ -6,10 +6,8 @@
     <title>html project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    </head>
-
-    <body>
+  </head>
+   <body>
       <header> 
         <h1>SWAMI VIVEKANANDA LIBRARY</h1>
         <br>
@@ -58,10 +56,7 @@
        </tr>
        </table>
        <br>
-
-
-
-      <article><h3> 
+  <article><h3> 
        Our library is running since 2022
        <br>
        <h2> Library open from 6:00 am to 9:00 pm </h2>
@@ -73,20 +68,14 @@
        <p><h3> Two trail days available for everyone , feel free then visit it </h3></p>
        <br>
       </article></h3> 
-               
-
-
-
-
-           <h3> <aside> If you want then you will find evry type of person in library they will help you and guide you according to your needs
+               <h3> <aside> If you want then you will find evry type of person in library they will help you and guide you according to your needs
                 <br>
                 <br>
                        Government job and private job both type of students are available in library
                        <br>
                        <br>
                </aside></h3> 
-
-   <footer>
+<footer>
       <h3>
         About us: this library is started by MR.jee singh<br>
          and managed by vimlesh and raghu.
@@ -114,3 +103,4 @@
       <scrip src="new.js"></script>    
     </body>
     </html>
+
