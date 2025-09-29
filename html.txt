@@ -87,7 +87,7 @@
        <br>
       </article></h3> 
                <!-- its normal information not most important -->
-               <h3> <aside> If you want then you will find evry type of person in library they will help you and guide you according to your needs
+               <h3> <aside> If you want then you will find every type of person in library they will help you and guide you according to your needs
                 <br>
                 <br>
                        Government job and private job both type of students are available in library
