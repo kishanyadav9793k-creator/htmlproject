@@ -34,6 +34,17 @@
             <option value="rajsthan"> Rajsthan </option>
         </select>
         <br>
+
+        <label for ="id1">Gender</label>
+        <input type="radio" value="male" name="gender" id="id1">
+        <br>
+        <label for="id2">Female</label>
+        <input type="radio" id="id2" name="gender" value="female">
+        <br>
+        <label for="id3">Other</label>
+        <input type="radio" id="id3" name="gender" value="other">
+        
+        <br>
         <input type="text area" placeholder="Other details">     
         <br>
             <!-- here is submit page -->  
@@ -128,6 +139,9 @@
       <br>
   <a href="https://www.google.com/search?sca_esv=219388647f983b16&sxsrf=AE3TifOGpiC5sRmawztq4YkBLzZNFgy-rQ:1759157180048&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeioyp3OhN11EY0n5qfq-zENwnGygERInUV_0g0XKeHGJRAdFPaX_SSIJt7xYUfpm-75lA8Uar42yNWdqGuJlUAl_z5rxbQwJfseCgtKlK9ei0AWyXvoW1GpZmQ7JgAbwM0z2tYG_4RSbRyzyHcYz2pj6AZ4Q_AMYEQh-kh4YAtXa7uNJbA&q=book+images&sa=X&sqi=2&ved=2ahUKEwi_qciWm_6PAxUHS2cHHVFbEKEQtKgLegQIExAB&biw=1920&bih=953&dpr=1#vhid=4gRo5vRW8ZKOJM&vssid=mosaic" target="_blank">
     <img src="https://i.pinimg.com/564x/71/3f/f2/713ff2828de8fd471369fed7991d9cc7.jpg" alt="Book"  height="100px" style="cursor:pointer;"> </a>
+
+    <a href="https://pngimg.com/image/2111" target="_blank">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbXCpiYKfm11YUjU715AE4xto0XO6fzBiL8Q&s" alt="Book"  height="100px" style="cursor:pointer;"> </a>
         <br>
    <!-- its for price range  -->
     <input type="range">
@@ -149,7 +163,7 @@
    <pre> <img src="https://imgcdn.stablediffusionweb.com/2024/9/9/813f416f-2cc6-4903-91cc-3374df726da3.jpg" alt="photo" height="100px">        <img src="https://cdn.shopify.com/s/files/1/0583/4820/8201/files/Picture4_480x480.png?v=1723119015" alt="photo"height="100px">        <img src="https://static.vecteezy.com/system/resources/thumbnails/028/794/706/small_2x/cartoon-cute-school-boy-photo.jpg" alt="photo" height="100px"> </pre>
         <pre><b>    MANAGER          LIBRARY MANAGER    VOICE ASSISTANT <br> </pre>
          <br>
-         <br>
+         <hr>
             <!-- credit giving to developer -->
              <big>Credit: kishan yadav<br> 
              Email: kishanyadav@.com<br>
