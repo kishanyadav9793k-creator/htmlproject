@@ -9,26 +9,41 @@
     </head>
      <body>
       <header>
-        <!-- her is your title  -->
+    <!-- In this project i just want to use every tag from html  -->
+    <!-- her is your title  -->
         <h1>SWAMI VIVEKANANDA LIBRARY</h1>
-        <br>
+             <br>
       </header>
       <form>
-           <!-- here is your form -->
+                <!-- here is your form -->
         <h2>PLEASE ENTER YOUR DETAILS</h2>
-           <!-- it was made for username email number and password -->
-        <input type="username,email,number" placeholder="username,email,number">
-        <br>
+                <!-- it was made for username email number and password -->
+        <input type="username email number" placeholder="username email number">
+             <br>
                <!-- this section for password -->
         <input type="password" placeholder="password">
+             <br>
+             <!-- user image or other details  -->
+        <input type="file">
+             <br> 
+        <select name="state" id="state">
+            <option value="delhi"> Delhi </option>
+            <opiton value="uttar pradesh"> Uttar Pradesh </opiton>
+            <option vlaue="haryana"> Haryana</option>
+            <option value="bihar"> Bihar </option>
+            <option value="rajsthan"> Rajsthan </option>
+        </select>
         <br>
-            <!-- here is submit page -->
+        <input type="text area" placeholder="Other details">     
+        <br>
+            <!-- here is submit page -->  
         <button type="submit">Login</button>
         <br>
       </form>
+
       <main> 
              <!-- some formal information -->
-        <h2> If you are looling for good ,quite and relaiable library then you are at right place</h2>
+        <h2> If you are looking for good ,quite and relaiable library then you are at right place</h2>
         <br>
         <h2>Full day library fees is 500 ONLY 🔥</h2>
         <br>
@@ -44,11 +59,14 @@
                 <li> News paper(english and hindi)</li>
                 <li> Top floor for your personal lunch</li>
                 <li> Locker for your books</li>
-               <li> NOTE: 100 Rupees extra for locker</li>
+                <li> NOTE: 100 Rupees extra for locker</li>
               </ul>
             </div>
-            </b> 
+          </b> 
       </main>
+      <p> Number of student are studying in library</p>
+        <br> 
+       <p> Here's information about them </p>
          <!-- this table is is made for how many students are studying in library -->
       <table border="1" cellpadding="10">
         <tr>
@@ -57,7 +75,7 @@
           <th>Gender</th>
         </tr>
        <tr>
-         <td>Raghu</ <td>21</td>
+         <td>Raghu</td>
           <td>23</td>
           <td>male</td>
        </tr>
@@ -71,30 +89,50 @@
           <td>38</td>
           <td>male</td>
        </tr>
+       <tr>
+           <td> shruti </td>
+           <td>  44</td>
+           <td> female </td>
+       </tr>
        </table>
        <br>
-         <!-- informations -->
+
+       <!-- youtube showing in my site -->
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=6D7H37DPkTlJnTqa" title="YouTube video player" frameborder="0" allow="clipboard-write;  web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <br>
+       <!-- informations -->
      <article><h3> 
        Our library is running since 2022
-       <br>
+              <br>
        <h2> Library open from 6:00 am to 9:00 pm </h2>
-       <br>
-       <br>
+            <br>
+              <br>
        <h3> Library close only on last sunday of every month</h3>
-       <br>
-       <br>
+            <br>
+              <br>
        <p><h3> Two trail days available for everyone , feel free then visit it </h3></p>
-       <br>
+              <br>
       </article></h3> 
                <!-- its normal information not most important -->
-               <h3> <aside> If you want then you will find every type of person in library they will help you and guide you according to your needs
+         <h3><aside> If you want then you will find every type of person in library they will help you and guide you according to your needs
                 <br>
                 <br>
-                       Government job and private job both type of students are available in library
+                       Government job and private job both type of students in library
                        <br>
                        <br>
-               </aside></h3> 
-               <!-- this is your footer and contact detail section -->
+               </aside></h3>
+
+<aside> 
+    <!-- i create a price range & adding clickable image  -->
+    Recomended books 
+      <br>
+  <a href="https://www.google.com/search?sca_esv=219388647f983b16&sxsrf=AE3TifOGpiC5sRmawztq4YkBLzZNFgy-rQ:1759157180048&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeioyp3OhN11EY0n5qfq-zENwnGygERInUV_0g0XKeHGJRAdFPaX_SSIJt7xYUfpm-75lA8Uar42yNWdqGuJlUAl_z5rxbQwJfseCgtKlK9ei0AWyXvoW1GpZmQ7JgAbwM0z2tYG_4RSbRyzyHcYz2pj6AZ4Q_AMYEQh-kh4YAtXa7uNJbA&q=book+images&sa=X&sqi=2&ved=2ahUKEwi_qciWm_6PAxUHS2cHHVFbEKEQtKgLegQIExAB&biw=1920&bih=953&dpr=1#vhid=4gRo5vRW8ZKOJM&vssid=mosaic" target="_blank">
+    <img src="https://i.pinimg.com/564x/71/3f/f2/713ff2828de8fd471369fed7991d9cc7.jpg" alt="Book"  height="100px" style="cursor:pointer;"> </a>
+        <br>
+   <!-- its for price range  -->
+    <input type="range">
+      </aside>
+  <!-- this is your footer and contact detail section -->
     <footer>
       <h3>
         About us: this library is started by MR.jee singh<br>
@@ -108,8 +146,8 @@
         <br>
         <br>
              <!-- library is running by these people  -->
-   <pre>< <img src="https://imgcdn.stablediffusionweb.com/2024/9/9/813f416f-2cc6-4903-91cc-3374df726da3.jpg" alt="photo" height="100px">        <img src="https://cdn.shopify.com/s/files/1/0583/4820/8201/files/Picture4_480x480.png?v=1723119015" alt="photo"height="100px">        <img src="https://static.vecteezy.com/system/resources/thumbnails/028/794/706/small_2x/cartoon-cute-school-boy-photo.jpg" alt="photo" height="100px"> </pre>
-        <pre><b>    MANAGER          LIBRARY MANAGER      VOICE ASSISTANT <br> </pre>
+   <pre> <img src="https://imgcdn.stablediffusionweb.com/2024/9/9/813f416f-2cc6-4903-91cc-3374df726da3.jpg" alt="photo" height="100px">        <img src="https://cdn.shopify.com/s/files/1/0583/4820/8201/files/Picture4_480x480.png?v=1723119015" alt="photo"height="100px">        <img src="https://static.vecteezy.com/system/resources/thumbnails/028/794/706/small_2x/cartoon-cute-school-boy-photo.jpg" alt="photo" height="100px"> </pre>
+        <pre><b>    MANAGER          LIBRARY MANAGER    VOICE ASSISTANT <br> </pre>
          <br>
          <br>
             <!-- credit giving to developer -->
@@ -119,9 +157,10 @@
     <br>
         <a href="https://github.com/kishanyadav9793k-creator">github</a>
         <br>
-             [you can connect with me on anyplatform]
+             [you can connect with me on any platform]
              </big>
     </footer></h3>
+    <br>
       <scrip src="new.js"></script>    
     </body>
     </html>
