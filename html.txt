@@ -6,6 +6,8 @@
     <title>html project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+     <!-- <script> </script> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
      <body>
       <header>
@@ -147,6 +149,7 @@
     <input type="range">
       </aside>
   <!-- this is your footer and contact detail section -->
+   <hr>
     <footer>
       <h3>
         About us: this library is started by MR.jee singh<br>
@@ -166,10 +169,10 @@
          <hr>
             <!-- credit giving to developer -->
              <big>Credit: kishan yadav<br> 
-             Email: kishanyadav@.com<br>
-        <a href="https://www.instagram.com/">instagram</a> 
+         <i class="fa-solid fa-envelope"></i> Email:kishanyadav9793k@.com<br>
+          <i class="fa-brands fa-square-instagram"></i>107_kd
     <br>
-        <a href="https://github.com/kishanyadav9793k-creator">github</a>
+          <i class="fa-brands fa-github"></i> kishanyadav9793k-creator
         <br>
              [you can connect with me on any platform]
              </big>
@@ -178,3 +181,59 @@
       <scrip src="new.js"></script>    
     </body>
     </html>
+[note these are css property that is i am using
+
+
+
+.fa-square-instagram {
+  font-size: 1.4rem;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285AEB 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;       
+}
+.fa-envelope{
+  font-size: 1.4rem;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #ffffff 0%,
+    #ff0000 5%,
+    #fc1500 45%,
+    #ff0000 60%,
+    #ff0000 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.fa-github{
+  font-size: 1.4rem;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #000000 0%,
+    #000000 5%,
+    #000000 45%,
+    #000000 60%,
+    #000000 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html{
+  background-color: rgb(255, 0, 0);
+}
+
+footer{
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+}
