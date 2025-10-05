@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom manipulation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body> 
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+<script src="new.js"></script>
+    </body>
+    </html>
+
+style.css
+
+ .box {
+      padding: 10px;
+      margin: 5px;
+      background-color: rgb(0, 0, 0);
+      cursor: pointer;
+      user-select: none;
+      color: red;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+new.js
+
+function toggleBoxes() {
+  const boxes = document.getElementsByClassName('box');
+  for (let i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener("click", function() {
+      if (this.classList.contains("clicked")) {
+        this.classList.remove("clicked");
+        this.innerHTML = "Box " + (i + 1);
+        this.style.backgroundColor = "black";
+      } else {
+        this.classList.add("clicked");
+        this.innerHTML = "Clicked";
+        this.style.backgroundColor = "lightgreen";
+      }
+    });
+  }
+}
+toggleBoxes();
